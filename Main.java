@@ -10,7 +10,10 @@ public class Main {
         String name = in.nextLine().trim();
         System.out.println("Do you really expect me to believe that your name is " + name + "?");
 
-        in.close(); //close Scanner
+        System.out.println("What is your favorite food? "); //take in user input
+        String faveFood = in.nextLine().trim();
+        System.out.println(faveFood + " is also my favorite!");
 
+        in.close(); //close Scanner
     }
 }
